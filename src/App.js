@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function App() {
     const [persons, setPersons] = useState([]);
@@ -64,6 +64,10 @@ function App() {
         return personSkills;
     }
 
+    useEffect(() => {
+        setPersons(personsData);
+    }, []);
+
     var personsData = [];
     for (let i in response.data) {
         var p = {
@@ -74,10 +78,6 @@ function App() {
         };
         personsData.push(p);
     }
-
-    setPersons(personsData);
-
-    console.log(persons);
 
     return <p>Helloworld</p>;
 }
