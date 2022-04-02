@@ -1,24 +1,58 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const response = {
+    message: "Success to get data",
+    data: [
+      {
+        id: "1",
+        first_name: "John",
+        last_name: "Doe",
+        skills: {
+          javascript: "advanced",
+          python: "basic",
+          golang: "expert",
+          php: "expert",
+        },
+      },
+      {
+        id: "2",
+        first_name: "Will",
+        last_name: "Smith",
+        skills: {
+          javascript: "expert",
+          python: "basic",
+          golang: "advanced",
+          php: "advanced",
+        },
+      },
+      {
+        id: "3",
+        first_name: "Jaden",
+        last_name: "Smith",
+        skills: {
+          javascript: "expert",
+          python: "expert",
+          golang: "expert",
+          php: "expert",
+        },
+      },
+      {
+        id: "4",
+        first_name: "El",
+        last_name: "Professor",
+        skills: {
+          javascript: "advanced",
+          python: "basic",
+          golang: "intermediate",
+          php: "intermediate",
+        },
+      },
+    ],
+  };
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <p>Helloworld</p>
   );
 }
 
