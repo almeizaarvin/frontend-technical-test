@@ -36,31 +36,3 @@
         transform: rotate(360deg);
     }
 }
-
-.row {
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.col {
-    flex: 50%;
-    height: 200px;
-    width: 50%;
-}
-
-.box {
-    height: inherit;
-    background-color: cadetblue;
-    color: white;
-    border-radius: 15px;
-    margin: 5px;
-    padding: 10px;
-    text-align: center;
-    vertical-align: baseline;
-}
-
-/* .card-content {
-    margin: auto;
-} */

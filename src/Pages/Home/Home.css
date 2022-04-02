@@ -1,0 +1,12 @@
+.row {
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 50%;
+    height: 200px;
+    width: 50%;
+}

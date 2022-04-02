@@ -1,0 +1,14 @@
+.box {
+    height: inherit;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.card-content {
+    margin: auto;
+}
