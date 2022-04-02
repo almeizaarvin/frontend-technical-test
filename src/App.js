@@ -64,6 +64,10 @@ function App() {
         return personSkills;
     }
 
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
     useEffect(() => {
         setPersons(personsData);
     }, []);
@@ -80,19 +84,22 @@ function App() {
     }
 
     return (
-        <div>
+        <div className="row">
             {persons.map((el) => (
-                <div>
-                    <p>{el.full_name}</p>
-                    {el.expert_skills.map((s, idx) =>
-                        idx === el.expert_skills.length - 1 ? (
-                            <span>{s}</span>
-                        ) : (
-                            <span>{s}, </span>
-                        )
-                    )}
-                    <br />
-                    <br />
+                <div className="col">
+                    <div className="box">
+                        <div className="card-content">
+                            <h2>{el.full_name}</h2>
+                            <p>Expert Skills: </p>
+                            {el.expert_skills.map((s, idx) =>
+                                idx === el.expert_skills.length - 1 ? (
+                                    <span>{capitalizeFirstLetter(s)}</span>
+                                ) : (
+                                    <span>{capitalizeFirstLetter(s)}, </span>
+                                )
+                            )}
+                        </div>
+                    </div>
                 </div>
             ))}
         </div>
