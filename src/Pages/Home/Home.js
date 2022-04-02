@@ -1,6 +1,6 @@
 import "./Home.css";
 import React, { useEffect, useState } from "react";
-import CadetBlueCard from "../../Components/CadetBlueCard";
+import CadetBlueCard from "../../Components/CadetBlueCard/CadetBlueCard";
 
 function Home() {
     const [persons, setPersons] = useState([]);
