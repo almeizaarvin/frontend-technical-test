@@ -79,7 +79,24 @@ function App() {
         personsData.push(p);
     }
 
-    return <p>Helloworld</p>;
+    return (
+        <div>
+            {persons.map((el) => (
+                <div>
+                    <p>{el.full_name}</p>
+                    {el.expert_skills.map((s, idx) =>
+                        idx === el.expert_skills.length - 1 ? (
+                            <span>{s}</span>
+                        ) : (
+                            <span>{s}, </span>
+                        )
+                    )}
+                    <br />
+                    <br />
+                </div>
+            ))}
+        </div>
+    );
 }
 
 export default App;
