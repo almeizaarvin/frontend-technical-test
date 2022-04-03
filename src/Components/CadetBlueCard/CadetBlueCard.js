@@ -1,7 +1,7 @@
 import "./CadetBlueCard.css";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import ProfileDetail from "../../Pages/ProfileDetail/ProfileDetail";
+import ProfileDetail from "../../Pages/Profile/ProfileDetail";
 
 function CadetBlueCard(props) {
     const person = props.person;

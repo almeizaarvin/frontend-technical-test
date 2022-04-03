@@ -1,4 +1,4 @@
-import "./ProfileDetail.css";
+import "./Profile.css";
 import React, { useContext, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 

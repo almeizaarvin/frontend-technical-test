@@ -38,13 +38,28 @@
     text-align: justify;
 }
 
-/* ul {
-    width: 100%;
-    margin-left: 0;
-    margin-bottom: 0;
+.submit-button {
+    background-color: black;
+    width: 70%;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    margin: 50px auto;
 }
 
-li {
-    display: block;
-    margin-right: 20px;
-} */
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.warning {
+    color: rgba(255, 0, 0, 0.76);
+}
+
+.text-input {
+    background-color: rgb(255, 211, 146);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}

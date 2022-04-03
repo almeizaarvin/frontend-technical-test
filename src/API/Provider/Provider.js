@@ -5,7 +5,7 @@ export const ProfileContext = createContext();
 const ProfileContextProvider = (props) => {
     const [persons, setPersons] = useState([]);
     const addPerson = (person) => {
-        setPersons((prevState) => [...prevState, { person }]);
+        setPersons((prevState) => [...prevState, person]);
     };
 
     const response = {
@@ -68,19 +68,18 @@ const ProfileContextProvider = (props) => {
         return personSkills;
     }
 
-    useEffect(() => {
-        setPersons(personsData);
-    }, []);
-
-    var personsData = [];
-    for (let i in response.data) {
-        var p = {
-            id: response.data[i].id,
-            full_name:
-                response.data[i].first_name + " " + response.data[i].last_name,
-            expert_skills: personSkills(response.data[i].skills),
-        };
-        personsData.push(p);
+    if (persons.length === 0) {
+        for (let i in response.data) {
+            var p = {
+                id: response.data[i].id,
+                full_name:
+                    response.data[i].first_name +
+                    " " +
+                    response.data[i].last_name,
+                expert_skills: personSkills(response.data[i].skills),
+            };
+            addPerson(p);
+        }
     }
 
     return (
