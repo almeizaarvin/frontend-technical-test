@@ -1,5 +1,5 @@
 import "./ProfileDetail.css";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
 function ProfileDetail() {
