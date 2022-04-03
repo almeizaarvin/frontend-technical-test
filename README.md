@@ -20,6 +20,8 @@ Untuk instalasi lokal,
 -   Jalankan program dengan command `npm run start`
 
 ### 2.2 Cara Pemakaian
+- Klik pada nama person untuk melihat detail profil
+- Klik tombol '+' untuk menambahkan profil
 
 ## 3. Screenshot
 
