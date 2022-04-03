@@ -1,7 +1,5 @@
 # Qlue Frontend Intern Test
 
- <br>
-
 ## Author
 
 Almeiza Arvin Muzaki
