@@ -14,9 +14,9 @@ function ProfileDetail() {
         <div className="cream-card">
             <div>
                 <div className="profile-img">
+                    <div className="badge">C</div>
                     <img src={path + "/Images/user.png"} alt="" />
                 </div>
-                <div className="badge">C</div>
             </div>
 
             <div className="cream-card">

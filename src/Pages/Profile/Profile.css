@@ -22,8 +22,9 @@
 }
 
 .badge {
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
     border-radius: 50%;
     background-color: rgb(255, 211, 146);
     text-align: center;
@@ -36,6 +37,8 @@
 .desc {
     width: 80%;
     text-align: justify;
+    padding: 15px 0px;
+    position: relative;
 }
 
 .submit-button {

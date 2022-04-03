@@ -18,6 +18,7 @@ export function Home() {
                         <CadetBlueCard person={el} />
                     </div>
                 ))}
+                {persons.length % 2 === 0 ? <></> : <div className="col"></div>}
             </div>
             <Link
                 exact="true"

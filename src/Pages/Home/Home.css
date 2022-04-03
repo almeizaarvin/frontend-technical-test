@@ -6,9 +6,9 @@
 }
 
 .col {
-    flex: 50%;
+    flex: 40%;
     height: 200px;
-    width: 50%;
+    margin: 15px 0px;
 }
 
 .float-button {
