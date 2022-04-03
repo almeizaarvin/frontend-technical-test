@@ -1,5 +1,4 @@
 import "./Home.css";
-import React, { createContext, useEffect, useState } from "react";
 import CadetBlueCard from "../../Components/CadetBlueCard/CadetBlueCard";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
