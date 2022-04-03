@@ -1,25 +1,28 @@
 # Qlue Frontend Intern Test
+
  <br>
 
-
 ## Author
- Almeiza Arvin Muzaki 
+
+Almeiza Arvin Muzaki
 
 ## 1. Deskripsi Aplikasi
-- Aplikasi dideploy pada
+
+-   Aplikasi dideploy pada `https://frontend-test-qlue.netlify.app/`
+
 ## 2. Instalasi dan Pemakaian
-Untuk instalasi lokal, 
-- Clone project ini <br>
-`git clone https://github.com/almeizaarvin/frontend-technical-test`
-<br>
-- Install package yang diperlukan dengan `npm install`
-<br>
-- Jalankan program dengan command `npm run start`
+
+Untuk instalasi lokal,
+
+-   Clone project ini <br>
+    `git clone https://github.com/almeizaarvin/frontend-technical-test`
+    <br>
+-   Install package yang diperlukan dengan `npm install`
+    <br>
+-   Jalankan program dengan command `npm run start`
 
 ### 2.2 Cara Pemakaian
 
-
 ## 3. Screenshot
 
-
-
+![alt text](Preview.gif)
